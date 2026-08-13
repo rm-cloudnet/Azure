@@ -1,0 +1,5 @@
+Create azure resource group
+az group create --name hub-rg --location 'eastus'
+
+Run deployment
+az deployment group create --resource-group hub-rg --template-file storage-account.json

@@ -1,0 +1,4 @@
+az deployment group create \
+  --resource-group hub-rg \
+  --template-file /Users/rakshitha/Documents/Projects/azure/ARM/create-vm.json \
+  --parameters vmName=myvm01 adminUsername=azureuser adminPassword='Password123!'
